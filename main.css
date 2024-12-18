@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000E2F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5em 4em 1.5em 4em;
+}
+
+header img {
+    height: 2em;
+}
+
+header div {
+    width: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+section.landing {
+    background-color: #101c64;
+    color: #fff;
+}
+
+.login-section h4 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-bottom: 0.4em;
+}
+
+.login-section h2 {
+    font-weight: 600;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 4em 1.3em 4em;
+}
+
+.login-btn {
+    display: inline-block;
+    padding: 0.4em 1.8em 0.4em 1.8em;
+    border-radius: 1em;
+    background: rgb(60,91,205);
+    background: linear-gradient(90deg, rgba(60,91,205,1) 1%, rgba(165,16,230,1) 99%);
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-size: 1.1em;
+}
+
+.nav-links {
+    width: 40em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2.9em;
+}
+
+.nav-links a {
+    color: #fff;
+    padding: 0.4em 1.1em 0.4em 1.1em;
+    text-decoration: none;
+    border-radius: 0.8em;
+}
+
+.nav-links a:link, .nav-links a:visited {
+    color: #fff;
+}
+
+.nav-links a:hover {
+    background-color: #222f70;
+}
+
+
+section.landing h1 {
+    font-size: 8em;
+    font-weight: 300;
+    font-family: "Reem Kufi Ink", sans-serif;
+}
