@@ -31,6 +31,8 @@ header div {
 section.landing {
     background-color: #101c64;
     color: #fff;
+    position: absolute;
+    width: 100%;
 }
 
 .login-section h4 {
@@ -85,9 +87,28 @@ section.landing {
     background-color: #222f70;
 }
 
+.landing-text {
+    margin-left: 3.4em;
+    margin-top: 1em;
+}
 
-section.landing h1 {
-    font-size: 8em;
-    font-weight: 300;
+.landing-text h1 {
+    font-size: 6.7em;
+    font-weight: 400;
     font-family: "Reem Kufi Ink", sans-serif;
+}
+
+.landing-text p {
+    width: 40em;
+    margin-left: 0.6em;
+}
+
+.circle-image {
+    width: 35em;
+    height: 35em;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 50em;
 }
