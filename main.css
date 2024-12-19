@@ -208,7 +208,7 @@ footer {
 }
 
 footer .footer-wrap {
-    width: 65%;
+    width: 60%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -224,6 +224,15 @@ footer .footer-wrap a, footer .footer-wrap a:link, footer .footer-wrap a:visited
 footer .footer-wrap .column {
     display: flex;
     flex-direction: column;
+}
+
+footer .footer-wrap .column .icons {
+    margin-top: 1em;
+}
+
+footer .footer-wrap .column .icons i {
+    font-size: 1.7em;
+    margin-right: 0.8em;
 }
 
 footer .footer-wrap .column a, footer .footer-wrap .column p {
