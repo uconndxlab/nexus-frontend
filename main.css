@@ -138,7 +138,7 @@ section.landing {
     align-items: center;
     margin: auto;
     position: relative;
-    top: -8em;
+    top: -6em;
     text-align: center;
 }
 
@@ -208,7 +208,7 @@ footer {
 }
 
 footer .footer-wrap {
-    width: 60%;
+    width: 65%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -257,3 +257,33 @@ footer .footer-wrap .column a, footer .footer-wrap .column p {
     display: flex;
     justify-content: space-between;
 }
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .search input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .search button {
+    padding: 10px 20px;
+    background-color: #19246a;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    font-size: 16px;
+  }
