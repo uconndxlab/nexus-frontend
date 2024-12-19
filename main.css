@@ -107,18 +107,13 @@ section.landing {
 }
 
 .circle-image {
-    width: 35em;
-    height: 35em;
+    width: 38em;
+    height: 38em;
     object-fit: cover;
     border-radius: 50%;
-    margin-right: 6em;
+    margin-right: 4.5em;
     position: relative;
-    top: -2em;
-}
-
-.wave-section {
-    position: relative;
-    top: -15em;
+    top: -2.5em;
 }
 
 .landing-text .login-btn {
@@ -129,6 +124,11 @@ section.landing {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.wave {
+    position: absolute;
+    top: 33em;
 }
 
 .about-section {
