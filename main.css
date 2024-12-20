@@ -24,7 +24,7 @@ h3 {
     font-size: 20px
 }
 
-p, a {
+p, a, button, input {
     font-family: 'Fustat', sans-serif;
     /* font-size: 15px; */
 }
