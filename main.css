@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Fustat:wght@200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fustat', Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Baumans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Baumans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Fustat';
+    font-size: 20px
+}
+
+p, a {
+    font-family: 'Fustat', sans-serif;
+    /* font-size: 15px; */
+}
+
+
+header {
+    background-color: #000E2F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5em 4em 1.5em 4em;
+}
+
+header img {
+    height: 2em;
+}
+
+header div {
+    width: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+section.landing {
+    background-color: #101c64;
+    color: #fff;
+    position: relative;
+    width: 100%;
+}
+
+.login-section h4 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-bottom: 0.4em;
+}
+
+.login-section h2 {
+    font-weight: 600;
+    font-family: 'Fustat', sans-serif;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 4em 1.3em 4em;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 0.4em 1.8em 0.4em 1.8em;
+    border-radius: 1em;
+    background: #3653e9;
+    background: linear-gradient(90deg, #3653e9 1%, #9a31ed 99%);
+    font-family: "Baumans", sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.nav-links {
+    width: 40em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2.9em;
+}
+
+.nav-links a {
+    color: #fff;
+    padding: 0.4em 1.1em 0.4em 1.1em;
+    text-decoration: none;
+    border-radius: 0.8em;
+}
+
+.nav-links a:link, .nav-links a:visited {
+    color: #fff;
+}
+
+.nav-links a:hover, .nav-links a:active  {
+    background-color: #222f70;
+} 
+
+.landing-text {
+    margin-left: 3.4em;
+    margin-top: 1em;
+    width: 40%;
+}
+
+.landing-text h1 {
+    display: inline;
+    font-size: 120px;
+}
+
+.landing-text p {
+    width: 100%;
+    margin-left: 0.6em;
+}
+
+.circle-image {
+    width: 38em;
+    height: 38em;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 4.5em;
+    position: relative;
+    top: -2.5em;
+}
+
+.landing-text .login-btn {
+    margin-top: 2em;
+}
+
+.landing-flex-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.wave {
+    position: absolute;
+    top: 33em;
+    height: 320px; 
+    overflow: hidden;
+}
+
+.about-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: -6em;
+    text-align: center;
+}
+
+.about-section p {
+    margin-bottom: 1em;
+}
+
+.about-section h2 {
+    font-size: 35px;
+}
+
+main {
+    background-color: #e6e4fe;
+    width: 100%;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin: auto;
+}
+
+.card .card-title {
+    color: #19246a;
+    background-color: #e6e4fe;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    border-radius: 1em;
+    font-weight: lighter;
+    font-weight: bold;
+}
+
+.card {
+    width: 49%;
+    background-color: #fff;
+    padding: 2.5em;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.05);
+    margin: auto;
+}
+
+.card .bullet i {
+    color: #19246a;
+    background-color: #e6e4fe;
+    display: inline;
+    width: 3em !important;
+    height: 3em !important;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.card .bullet {
+    margin-bottom: 0.4em;
+    display: flex;
+    margin-top: 1em;
+}
+
+footer {
+    background-color: #000e2f;
+    padding: 5em 0em 5em 0em;
+}
+
+footer .footer-wrap {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer .footer-wrap a, footer .footer-wrap a:link, footer .footer-wrap a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .footer-wrap .column {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-wrap .column .icons {
+    margin-top: 1em;
+}
+
+footer .footer-wrap .column .icons i {
+    font-size: 1.7em;
+    margin-right: 0.8em;
+}
+
+footer .footer-wrap .column a, footer .footer-wrap .column p {
+    margin: 0.2em 0em 0.2em 0em;
+}
+
+.copyright a, .copyright a:link, .copyright a:visited{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.copyright {
+    width: 100%;
+    background-color: #000921;
+    padding: 1.5em;
+    font-size: 0.8em;
+}
+
+.copyright div {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .search input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .search button {
+    padding: 10px 20px;
+    background-color: #19246a;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* RESPONSIVE FOR SMALL LAPTOPS & TABLES */
+
+@media screen and (max-width: 1293px) {
+    .wave {
+        top: 38em;
+    }
+
+    .about-section {
+        top: -3em;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .circle-image {
+        display: none;
+    }
+    .wave {
+        display: none;
+    }
+
+    .about-section {
+        top: 0;
+        padding: 2em;
+    }
+
+    .landing-text {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .about-section {
+        width: 80%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    footer .footer-wrap {
+        flex-wrap: wrap;
+    }
+
+    footer .footer-wrap div {
+        padding: 1em;
+    }
+
+    .icons {
+        padding-left: 0 !important;
+    }
+
+    .search {
+        padding: 2px !important;
+    }
+
+    .copyright div {
+        width: 90%;
+    }
+
+    
+}
+
+/* RESPONSIVE FOR PHONES */
+
+@media screen and (max-width: 630px) {
+    .login-btn {
+        display: none;
+    }
+
+
+
+
+}
+
+/* RESPONSIVE FOR LARGER LAPTOPS AND DESKTOPS */
+
+@media screen and (min-width: 1438px) { 
+    .wave {
+        height: auto;
+    }
+
+    .about-section {
+        top: -6em;
+    }
+}
+
+@media screen and (min-width: 1900px) { 
+    .wave {
+        height: auto;
+    }
+
+    .about-section {
+        top: -4.5em;
+    }
+}
