@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fustat', Helvetica, sans-serif;
 }
 
 h1 {
@@ -67,7 +67,7 @@ section.landing {
 
 .login-section h2 {
     font-weight: 600;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Fustat', sans-serif;
 }
 
 .login-section {
@@ -146,11 +146,14 @@ section.landing {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 2em;
 }
 
 .wave {
     position: absolute;
     top: 33em;
+    height: 320px; 
+    overflow: hidden;
 }
 
 .about-section {
@@ -201,7 +204,7 @@ main {
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 3px 9px 0px; 
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.05);
     margin: auto;
 }
 
@@ -307,4 +310,79 @@ footer .footer-wrap .column a, footer .footer-wrap .column p {
     border-radius: 2em;
     cursor: pointer;
     font-size: 16px;
-  }
+}
+
+
+/* RESPONSIVE FOR SMALL LAPTOPS & TABLES */
+
+@media screen and (max-width: 1000px) {
+
+    .circle-image {
+        display: none;
+    }
+    .wave {
+        display: none;
+    }
+
+    .about-section {
+        top: 0;
+        padding: 2em;
+    }
+
+    .landing-text {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .about-section {
+        width: 80%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    footer .footer-wrap {
+        flex-wrap: wrap;
+    }
+
+    footer .footer-wrap div {
+        padding: 1em;
+    }
+
+    .icons {
+        padding-left: 0 !important;
+    }
+
+    .search {
+        padding: 2px !important;
+    }
+
+    .copyright div {
+        width: 90%;
+    }
+
+    
+}
+
+/* RESPONSIVE FOR PHONES */
+
+@media screen and (max-width: 630px) {
+    .login-btn {
+        display: none;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 1438px) { 
+    .wave {
+        height: auto;
+    }
+
+    .about-section {
+        top: -4em;
+    }
+}
