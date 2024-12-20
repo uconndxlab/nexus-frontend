@@ -7,6 +7,10 @@
     font-family: 'Fustat', Helvetica, sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 h1 {
     font-family: 'Baumans', sans-serif;
     font-size: 32px;
@@ -94,6 +98,7 @@ section.landing {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-left: 2.9em;
 }
 
@@ -327,6 +332,9 @@ footer .footer-wrap .column a, footer .footer-wrap .column p {
 
 @media screen and (max-width: 1050px) {
 
+    .nav-links {
+        width: 80%;
+    }
     .circle-image {
         display: none;
     }
