@@ -155,6 +155,7 @@ section.landing {
     top: 33em;
     height: 320px; 
     overflow: hidden;
+    width: 100vw;
 }
 
 .about-section {
