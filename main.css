@@ -315,7 +315,17 @@ footer .footer-wrap .column a, footer .footer-wrap .column p {
 
 /* RESPONSIVE FOR SMALL LAPTOPS & TABLES */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1293px) {
+    .wave {
+        top: 38em;
+    }
+
+    .about-section {
+        top: -3em;
+    }
+}
+
+@media screen and (max-width: 1050px) {
 
     .circle-image {
         display: none;
@@ -377,12 +387,24 @@ footer .footer-wrap .column a, footer .footer-wrap .column p {
 
 }
 
+/* RESPONSIVE FOR LARGER LAPTOPS AND DESKTOPS */
+
 @media screen and (min-width: 1438px) { 
     .wave {
         height: auto;
     }
 
     .about-section {
-        top: -4em;
+        top: -6em;
+    }
+}
+
+@media screen and (min-width: 1900px) { 
+    .wave {
+        height: auto;
+    }
+
+    .about-section {
+        top: -4.5em;
     }
 }
