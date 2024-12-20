@@ -386,10 +386,22 @@ footer .footer-wrap .column a, footer .footer-wrap .column p {
     .login-btn {
         display: none;
     }
+}
 
+@media screen and (max-width: 400px) {
 
+    .landing-text h1 {
+        font-size: 85px;
+    }
 
+    header img {
+        height: 1em;
+    }
 
+    .search {
+        position: relative;
+        left: -2em;
+    }
 }
 
 /* RESPONSIVE FOR LARGER LAPTOPS AND DESKTOPS */
